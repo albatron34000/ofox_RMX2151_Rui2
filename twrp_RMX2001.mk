@@ -15,8 +15,8 @@ $(call inherit-product, device/realme/RMX2151/device.mk)
 # Inherit from our PitchBlack configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-PRODUCT_DEVICE := RMX2151
-PRODUCT_NAME := twrp_RMX2151
+PRODUCT_DEVICE := RMX2001
+PRODUCT_NAME := twrp_RMX2001
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme 7
 PRODUCT_MANUFACTURER := realme
@@ -24,6 +24,6 @@ PRODUCT_MANUFACTURER := realme
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="fox_RMX2151-eng 99.87.36 SP2A.220405.004 eng.root.20230612.135457 test-keys"
+    PRIVATE_BUILD_DESC="fox_RMX2001-eng 99.87.36 SP2A.220405.004 eng.root.20230612.135457 test-keys"
 
-BUILD_FINGERPRINT := realme/fox_RMX2151/RMX2151:99.87.36/SP2A.220405.004/root06121353:eng/test-keys
+BUILD_FINGERPRINT := realme/fox_RMX2001/RMX2001:99.87.36/SP2A.220405.004/root06121353:eng/test-keys
